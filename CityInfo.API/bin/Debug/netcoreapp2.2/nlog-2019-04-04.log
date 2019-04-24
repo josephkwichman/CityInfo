@@ -1,0 +1,20 @@
+2019-04-04 08:25:05.3502|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44380/  
+2019-04-04 08:25:05.7701|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Page: /Index'
+2019-04-04 08:25:06.0810|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index
+2019-04-04 08:25:06.1182|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing handler method CityInfo.API.Pages.IndexModel.OnGet with arguments ((null)) - ModelState is Valid
+2019-04-04 08:25:06.1261|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed handler method OnGet, returned result .
+2019-04-04 08:25:06.1458|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing an implicit handler method - ModelState is Valid
+2019-04-04 08:25:06.1458|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-04-04 08:25:06.6732|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed page /Index in 568.2574ms
+2019-04-04 08:25:06.7591|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Page: /Index'
+2019-04-04 08:25:06.7916|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1441.5699ms 200 text/html; charset=utf-8
+2019-04-04 08:25:23.7307|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:44380/api/cities/5/pointsOfInterest  
+2019-04-04 08:25:23.7380|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)'
+2019-04-04 08:25:23.7687|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetPointsOfInterest", controller = "PointsOfInterest", page = ""}. Executing action CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)
+2019-04-04 08:25:23.8791|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) with arguments (5) - Validation state: Valid
+2019-04-04 08:25:23.8791|INFO|CityInfo.API.Controllers.PointsOfInterestController|City with id 5 wasn't found when accessing points of interest.
+2019-04-04 08:25:23.8933|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 7.0742ms.
+2019-04-04 08:25:23.8933|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2019-04-04 08:25:23.8933|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) in 129.7207ms
+2019-04-04 08:25:23.9071|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)'
+2019-04-04 08:25:23.9071|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 180.1072ms 404 text/plain
